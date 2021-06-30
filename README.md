@@ -1,5 +1,9 @@
 # ICT SPECIALIST PROFICIENCY EXAMINATION
 
+CSC now grants eligibility to ICT specialists.
+
+Information and communications technology (ICT) professionals may apply for Electronic Data Processing Specialist Eligibility, which they may use in vying for permanent appointment to functionally related positions in government.
+
 ## FAQs
 
 ### What is the ICT Specialist Proficiency Examination?
