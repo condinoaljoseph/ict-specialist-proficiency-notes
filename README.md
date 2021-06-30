@@ -6,6 +6,8 @@ Information and communications technology (ICT) professionals may apply for Elec
 
 ## FAQs
 
+Source: [https://dict.gov.ph/wp-content/uploads/2017/05/2017-ICT-Specialist-Proficiency-Examination-FAQ.pdf](https://dict.gov.ph/wp-content/uploads/2017/05/2017-ICT-Specialist-Proficiency-Examination-FAQ.pdf). I will update this readme when DICT release they're new pdf version.
+
 ### What is the ICT Specialist Proficiency Examination?
 
 The ICT Specialist Proficiency Examination is designed to evaluate the competence of an individual to perform programming or systems analysis and design functions. This is pursuant to PD 1408, which directs the National Computer Center (NCC) and the Civil Service Commission (CSC) to devise ways of determining the fitness of individuals in occupying highly technical ICT positions and through which the awarding of appropriate ICT (EDP) Specialist Eligibility will be based. NCC and CSC therefore conduct tests in the area of Computer Programming.
@@ -72,5 +74,3 @@ The result of the examination will be sent to the examinees via e-mail, six week
 ### Where is the examination center?
 The examination center is at the Department of Information & Communications Technology, C.P. Garcia Avenue, U.P., Diliman, Quezon City.
 
-### Source
-> [https://dict.gov.ph/wp-content/uploads/2017/05/2017-ICT-Specialist-Proficiency-Examination-FAQ.pdf](https://dict.gov.ph/wp-content/uploads/2017/05/2017-ICT-Specialist-Proficiency-Examination-FAQ.pdf)
