@@ -1,12 +1,3 @@
-To run c++ on terminal
-`g++ filename -o a.out` OR `g++ filename`
-`./a.out` OR `./my_executable.out` OR `./filename`
-
-```
-// single line comment
-/* ... */ multiple line comment
-```
-
 About C++
 - from human-readable form transform into machine language
 - a strongly typed language
@@ -22,6 +13,21 @@ About C++
 
 - Don't forget to add a backslash n (`\n`)
 
+To run c++ on terminal
+
+`g++ filename -o a.out`
+
+`g++ filename`
+`./a.out`
+
+`./my_executable.out`
+
+`./filename`
+
+```
+// single line comment
+/* ... */ multiple line comment
+```
 
 Code, save, run (IDE)
 Compile and Execute (terminal)
