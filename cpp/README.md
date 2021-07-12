@@ -79,7 +79,10 @@ Arithmetic Operators:
 
 ```Note: The order of operations can be specified using parentheses ().```
 
-Chaining - to write the `cout` statements within a single line
+----------
+Variable - is a location in memory where a value can be stored. Declare variables with data type and name before use
+
+
 
 ----------
 `Formulas`:
@@ -91,11 +94,20 @@ To calculate `BMI` body mass index
 - bmi = weight / (height * height)
 
 ------------
-Introduction to Conditionals & Logic
+CONDITIONAL & LOGIC
 
 - if, else if, and else statements
-    - `if` statement is used to test an expression for truth and execute some code based on it
+    - `if` statement is used to test an expression for truth and execute some code based on it: if the condition is `true`, then the statements within are executed. Otherwise, the statements are skipped and the program continues on.
+    - add an `else` clause to an `if` statement to provide code that will only be executed if the condition is `false`. So what happens if you want more than two possible outcomes? This is where `else if` comes in! The e`lse if` statement always comes after the `if` statement and before the `else` statement. The `else if` statement also takes a condition.
     - 
 - switch statements
 - Relational operators
 - Logical operators
+
+Relational Opreators:
+- `==` equal to
+- `!=` not equal to
+- `>` greater than
+- `<` less than
+- `>=` greater than or equal to
+- `<=` less than or equal to
