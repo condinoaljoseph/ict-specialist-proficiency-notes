@@ -31,7 +31,7 @@ BASIC INPUT /OUTPUT
 
 -------
 - STRINGSTREAM
-    - The standard header `<sstream>` defines a type called `stringstream` that allows a string to be treated as a stream, and thus allowing extraction or insertion operations from/to strings in the same way as they are performed on cin and cout
+    - The standard header `<sstream>` defines a type called `stringstream` that allows a string to be treated as a stream, and thus allowing extraction or insertion operations from/to strings in the same way as they are performed on `cin` and `cout`
 
 
 ----------
@@ -80,7 +80,7 @@ Arithmetic Operators:
 ```Note: The order of operations can be specified using parentheses ().```
 
 ----------
-Variable - is a location in memory where a value can be stored. Declare variables with data type and name before use
+`Variable` - is a location in memory where a value can be stored. Declare variables with data type and name before use
 
 
 
@@ -93,18 +93,32 @@ Fahrenheit (F) to Celsius (C)
 To calculate `BMI` body mass index
 - bmi = weight / (height * height)
 
+| #  | Planet  | Relative Gravity  |
+|---|---|---|
+| 1  | Mercury  | 0.38  |
+| 2 | Venus | 0.91  |
+| 3  | Mars  | 0.38  |
+| 4  | Jupiter  | 2.34  |
+| 5  | Saturn  | 1.06  |
+| 6  | Uranus  | 0.92  |
+| 7  | Neptune  | 1.19  |
+
 ------------
 CONDITIONAL & LOGIC
 
 - if, else if, and else statements
     - `if` statement is used to test an expression for truth and execute some code based on it: if the condition is `true`, then the statements within are executed. Otherwise, the statements are skipped and the program continues on.
     - add an `else` clause to an `if` statement to provide code that will only be executed if the condition is `false`. So what happens if you want more than two possible outcomes? This is where `else if` comes in! The e`lse if` statement always comes after the `if` statement and before the `else` statement. The `else if` statement also takes a condition.
-    - 
 - switch statements
+    - `switch` statement provides an alternative syntax that is easier to read and write
+    - the `switch` keyword initiates the statement and is followed by `()`, which contains the value that each case will compare. `One restriction` on this expression is that it must evaluate to an `integral type` (`int`, `char`, `short`, `long`, `long long`, or `enum`)
+    - inside the block, `{}`, there are multiple cases. The `case` keyword checks if the expression matches the specified value that comes after it, the code that follows the `:` would run
+    - `break` keyword tells the computer to exit the block and not execute any more code
+    - At the end of each `switch` statement, there is a `default` statement. If none of the cases are `true`, then the code in the `default` statement will run. It’s essentially the `"else"` part.
 - Relational operators
 - Logical operators
 
-Relational Opreators:
+Relational Opreators(can compare 2 values):
 - `==` equal to
 - `!=` not equal to
 - `>` greater than
