@@ -3,7 +3,7 @@ About C++
 - a strongly typed language
 
 ---------------------
-BASIC INPUT /OUTPUT
+**BASIC INPUT /OUTPUT**
 
 `C++` uses a convenient abstraction called `streams` to perform input and output operations in sequential media such as the screen, the keyboard or a file. A `stream` is an entity where a program can either insert or extract characters to/from.
 	
@@ -104,7 +104,7 @@ To calculate `BMI` body mass index
 | 7  | Neptune  | 1.19  |
 
 ------------
-CONDITIONAL & LOGIC
+**CONDITIONAL & LOGIC**
 
 - if, else if, and else statements
     - `if` statement is used to test an expression for truth and execute some code based on it: if the condition is `true`, then the statements within are executed. Otherwise, the statements are skipped and the program continues on.
@@ -115,13 +115,23 @@ CONDITIONAL & LOGIC
     - inside the block, `{}`, there are multiple cases. The `case` keyword checks if the expression matches the specified value that comes after it, the code that follows the `:` would run
     - `break` keyword tells the computer to exit the block and not execute any more code
     - At the end of each `switch` statement, there is a `default` statement. If none of the cases are `true`, then the code in the `default` statement will run. It’s essentially the `"else"` part.
-- Relational operators
-- Logical operators
+- Relational Opreators(can compare 2 values):
+    - `==` equal to
+    - `!=` not equal to
+    - `>` greater than
+    - `<` less than
+    - `>=` greater than or equal to
+    - `<=` less than or equal to
+- Logical Operators
+    - `&&`: the `and` logical operator (only one needs to be `false`)
+    - `||`: the `or` logical operator (only one needs to be `true`)
+    - `!`: the `not` logical operator 
 
-Relational Opreators(can compare 2 values):
-- `==` equal to
-- `!=` not equal to
-- `>` greater than
-- `<` less than
-- `>=` greater than or equal to
-- `<=` less than or equal to
+**Introduction to Loops**
+
+`Loops` - a programming tool that repeats some code or a set of instructions until a specified condition is reached. An `iteration` in your code when referring to your `loops`; `iterate` means `"to repeat"`.
+
+2 Types of Loops:
+1. while loops
+    - The `while` loop looks very similar to an `if` statement. And just like an `if` statement, it executes the code inside of it if the condition is `true`. However, the difference is that the `while` loop will continue to execute the code inside of it, *over and over again*, as long as the condition is `true`.
+2. for loops
