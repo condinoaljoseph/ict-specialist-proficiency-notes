@@ -106,23 +106,23 @@ To calculate `BMI` body mass index
 ------------
 **CONDITIONAL & LOGIC**
 
-- if, else if, and else statements
+- ***if, else if, and else statements***
     - `if` statement is used to test an expression for truth and execute some code based on it: if the condition is `true`, then the statements within are executed. Otherwise, the statements are skipped and the program continues on.
     - add an `else` clause to an `if` statement to provide code that will only be executed if the condition is `false`. So what happens if you want more than two possible outcomes? This is where `else if` comes in! The e`lse if` statement always comes after the `if` statement and before the `else` statement. The `else if` statement also takes a condition.
-- switch statements
+- ***switch statements***
     - `switch` statement provides an alternative syntax that is easier to read and write
     - the `switch` keyword initiates the statement and is followed by `()`, which contains the value that each case will compare. `One restriction` on this expression is that it must evaluate to an `integral type` (`int`, `char`, `short`, `long`, `long long`, or `enum`)
     - inside the block, `{}`, there are multiple cases. The `case` keyword checks if the expression matches the specified value that comes after it, the code that follows the `:` would run
     - `break` keyword tells the computer to exit the block and not execute any more code
     - At the end of each `switch` statement, there is a `default` statement. If none of the cases are `true`, then the code in the `default` statement will run. It’s essentially the `"else"` part.
-- Relational Opreators(can compare 2 values):
+- ***Relational Opreators***(can compare 2 values):
     - `==` equal to
     - `!=` not equal to
     - `>` greater than
     - `<` less than
     - `>=` greater than or equal to
     - `<=` less than or equal to
-- Logical Operators
+- ***Logical Operators***
     - `&&`: the `and` logical operator (only one needs to be `false`)
     - `||`: the `or` logical operator (only one needs to be `true`)
     - `!`: the `not` logical operator 
@@ -135,3 +135,34 @@ To calculate `BMI` body mass index
 1. while loops
     - The `while` loop looks very similar to an `if` statement. And just like an `if` statement, it executes the code inside of it if the condition is `true`. However, the difference is that the `while` loop will continue to execute the code inside of it, *over and over again*, as long as the condition is `true`.
 2. for loops
+    - A `for` loop is a *repetition* control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+    - There are three separate parts to this separated by `;`:
+        - The initialization of a *counter*: `int i = 0`
+        - The continue condition: `i < 20`
+        - The change in the counter (*in this case an increment*): `i++`
+
+*Syntax of a `For` loop*
+```
+for ( init; condition; increment ) {
+   statement(s);
+}
+```
+
+*Incrementing `for` loop:*
+```
+for (int i = 0; i < 20; i++) 
+{
+  // Statements
+}
+```
+
+
+*Decrementing `for` loop:*
+```
+for (int i = 20; i > 0; i--) 
+{
+  // Statements
+}
+```
+
+
