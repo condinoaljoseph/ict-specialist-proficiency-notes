@@ -8,7 +8,7 @@
 int main() {
 	int year;
 
-    printf("enter year: ");
+	printf("enter year: ");
 	scanf("%d", &year);
 
 	if (year % 4 == 0) {
@@ -27,14 +27,14 @@ int main() {
 ### Sample 1
 
 ```c
-#include <stdio.h>
-
 // +
 // ++
 // +-+
 // +--+
 // +---+
 // +----+
+
+#include <stdio.h>
 
 int main () {
 	int range;
@@ -83,7 +83,6 @@ int main() {
 ### Sample 3
 
 ```c
-
 // ++++++++++
 // +        +
 // +        +
