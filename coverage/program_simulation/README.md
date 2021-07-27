@@ -57,7 +57,7 @@ int main () {
 }
 ```
 
-### Sample 1
+### Sample 2
 
 ```c
 #include <stdio.h>
@@ -78,4 +78,37 @@ int main() {
 	return 0;
 }
 
+```
+
+### Sample 3
+
+```c
+
+// ++++++++++
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// ++++++++++
+
+#include <stdio.h>
+
+int main() {
+    int range = 10;
+
+	for (int i = 1; i<=range; i++) {
+		for (int j = 1; j<=range; j++) {
+			if (j == 1 || j == range || i == 1 || i == range) {
+				printf("+");
+			} else {
+				printf(" ");
+			}
+		}
+		printf("\n");
+	}
+}
 ```
