@@ -1,4 +1,4 @@
-About C++
+**`About C++`**
 - from human-readable form transform into machine language
 - a strongly typed language
 
@@ -60,7 +60,7 @@ Code, save, run (IDE)
 Compile and Execute (terminal)
 
 ------------
-DATA TYPES:							
+`DATA TYPES`:							
 |  TYPE |  USAGE | EX  |
 |---|---|---|
 | Int  | int num  |0, 420   | 
@@ -70,7 +70,7 @@ DATA TYPES:
 |Bool   | truth values  | true, false  | 
 
 ----------
-Arithmetic Operators:
+**`Arithmetic Operators`**:
 - `+` addition
 - `-` subtraction
 - `*` multiplication 
@@ -104,7 +104,7 @@ To calculate `BMI` body mass index
 | 7  | Neptune  | 1.19  |
 
 ------------
-**CONDITIONAL & LOGIC**
+**`CONDITIONAL & LOGIC`**
 
 - ***if, else if, and else statements***
     - `if` statement is used to test an expression for truth and execute some code based on it: if the condition is `true`, then the statements within are executed. Otherwise, the statements are skipped and the program continues on.
@@ -127,7 +127,7 @@ To calculate `BMI` body mass index
     - `||`: the `or` logical operator (only one needs to be `true`)
     - `!`: the `not` logical operator 
 
-**Introduction to Loops**
+**`Introduction to Loops`**
 
 `Loops` - a programming tool that repeats some code or a set of instructions until a specified condition is reached. An `iteration` in your code when referring to your `loops`; `iterate` means `"to repeat"`.
 
@@ -166,3 +166,11 @@ for (int i = 20; i > 0; i--)
 ```
 
 
+
+**`Classifying Errors`**
+1. ***Compile-time errors***: Errors found by the compiler.
+    - `Syntax errors`: Errors that occur when we violate the rules of C++ syntax. eg: missing semi-colon `;`, closing parenthesis `)`, square bracket `]`, or curly brace `}`
+    - `Type errors`: Errors that occur when there are mismatch between the types we declared. eg: `Forgetting to declare` a variable and `Storing a value` into the wrong type
+2. ***Link-time errors***: Errors found by the linker when it is trying to combine object files into an executable program.
+3. ***Run-time errors***: Errors found by checks in a running program.
+4. ***Logic errors***: Errors found by the programmer looking for the causes of erroneous results.

@@ -2,7 +2,6 @@
 Checks to see if the year is a four-digit number.
 Displays whether or not the year falls on a leap year.
 */
-
 #include <iostream>
 
 int main() {
@@ -59,7 +58,6 @@ Let's the user inputs a number and guess from 1-10
 till they guess the right answer which is 8! Use a while loop 
 to do the program, so they can guess up to 50 times.
 */
-
 #include <iostream>
 
 int main() {
@@ -87,4 +85,23 @@ int main() {
   
   }  
   
+}
+
+
+
+/*
+Create a program that prints ther verses of the "99 Bottles" song, 
+using decrementing for loop.
+*/
+#include <iostream>
+
+int main() {
+
+  // Write a for loop here:
+  for (int i = 99; i > 0; i--){
+    std::cout << i << " bottles of pop on the wall.\n" ;
+    std::cout << "Take one down and pass it around.\n" ;
+    std::cout << i - 1 <<" bottles of pop on the wall.\n \n";
+  }
+ 
 }
