@@ -8,7 +8,7 @@
 int main() {
 	int year;
 
-    printf("enter year: ");
+	printf("enter year: ");
 	scanf("%d", &year);
 
 	if (year % 4 == 0) {
@@ -27,14 +27,14 @@ int main() {
 ### Sample 1
 
 ```c
-#include <stdio.h>
-
 // +
 // ++
 // +-+
 // +--+
 // +---+
 // +----+
+
+#include <stdio.h>
 
 int main () {
 	int range;
@@ -57,7 +57,7 @@ int main () {
 }
 ```
 
-### Sample 1
+### Sample 2
 
 ```c
 #include <stdio.h>
@@ -78,4 +78,36 @@ int main() {
 	return 0;
 }
 
+```
+
+### Sample 3
+
+```c
+// ++++++++++
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// +        +
+// ++++++++++
+
+#include <stdio.h>
+
+int main() {
+    int range = 10;
+
+	for (int i = 1; i<=range; i++) {
+		for (int j = 1; j<=range; j++) {
+			if (j == 1 || j == range || i == 1 || i == range) {
+				printf("+");
+			} else {
+				printf(" ");
+			}
+		}
+		printf("\n");
+	}
+}
 ```
