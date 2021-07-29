@@ -122,6 +122,9 @@ To calculate `BMI` body mass index
     - `<` less than
     - `>=` greater than or equal to
     - `<=` less than or equal to
+
+    `note:` ***^=*** `swapping`
+
 - ***Logical Operators***
     - `&&`: the `and` logical operator (only one needs to be `false`)
     - `||`: the `or` logical operator (only one needs to be `true`)
@@ -174,3 +177,23 @@ for (int i = 20; i > 0; i--)
 2. ***Link-time errors***: Errors found by the linker when it is trying to combine object files into an executable program.
 3. ***Run-time errors***: Errors found by checks in a running program.
 4. ***Logic errors***: Errors found by the programmer looking for the causes of erroneous results.
+
+
+**Array**
+
+Using `sizeof()`
+- to find the length of an array is to divide the size of the array by the size of each element (in bytes).
+
+***`arrSize = sizeof(arr)/sizeof(arr[0]);`***
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+  int arr[] = {10,20,30,40,50,60};
+  int arrSize = sizeof(arr)/sizeof(arr[0]);
+  cout << "The size of the array is: " << arrSize;
+  return 0;
+}
+```
